@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="login-form">
+		<div class="container">
+			
+			<img src="logo.png" alt="Logo" class="logo">
+			<div class="login-form">
+			  <h1>Login</h1>
+			  <form action="/login" method="post">
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<label for="password">Password:</label><br>
+				<input type="password" id="password" name="password"><br>
+				<input type="submit" value="Login">
+			  </form>
+			  <button class="google-login">Continue with Google</button>
+			  <a href="/forgot-password" class="forgot-password">Forgot password?</a>
+			  <a href="/sign-up" class="sign-up">Sign Up</a>
+			</div>
+		  </div>
+	  <script src="script.js"></script>
+</body>
+</html>

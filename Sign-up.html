@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="Sign-up.css">
+</head>
+<body>
+	<div class="container">
+		<img src="logo.png" alt="Logo" class="logo">
+		<div class="sign-up-form">
+		  <h1>Sign Up</h1>
+		  <form action="/sign-up" method="post">
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" name="password"><br>
+			<label for="confirm-password">Confirm Password:</label><br>
+			<input type="password" id="confirm-password" name="confirm-password"><br>
+			<input type="submit" value="Sign Up">
+		  </form>
+		  <button class="google-login">Sign Up with Google</button>
+		  <a href="/login" class="login">Already have an account? Login</a>
+		</div>
+	  </div>
+	  <script src="script.js"></script>
+</body>
+</html>
